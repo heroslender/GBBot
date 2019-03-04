@@ -10,6 +10,7 @@ import net.dv8tion.jda.core.JDABuilder
 import net.dv8tion.jda.core.hooks.ListenerAdapter
 import java.lang.Exception
 import java.util.*
+import kotlin.reflect.full.createInstance
 
 class Bot(token:String) {
 
@@ -17,6 +18,10 @@ class Bot(token:String) {
     var jdaBuilder:JDABuilder
     var started = false
     var commands = arrayListOf(Ajuda(), BotInfo(), GitHub())
+
+    companion object {
+        val instance = Bot::class.createInstance()
+    }
 
     init {
         jdaBuilder = JDABuilder().setToken(token)
