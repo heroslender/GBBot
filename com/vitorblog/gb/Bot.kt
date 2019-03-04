@@ -3,6 +3,7 @@ package com.vitorblog.gb
 import com.vitorblog.gb.api.CommandHandler
 import com.vitorblog.gb.commands.Ajuda
 import com.vitorblog.gb.commands.BotInfo
+import com.vitorblog.gb.commands.GitHub
 import com.vitorblog.gb.threads.StatusThread
 import net.dv8tion.jda.core.JDA
 import net.dv8tion.jda.core.JDABuilder
@@ -15,7 +16,7 @@ class Bot(token:String) {
     var jda:JDA? = null
     var jdaBuilder:JDABuilder
     var started = false
-    var commands = arrayListOf(Ajuda(), BotInfo())
+    var commands = arrayListOf(Ajuda(), BotInfo(), GitHub())
 
     init {
         jdaBuilder = JDABuilder().setToken(token)
