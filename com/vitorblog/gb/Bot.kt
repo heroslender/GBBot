@@ -47,9 +47,11 @@ class Bot(token:String) {
             timer.schedule(StatusThread(this), 0L, 20000L)
         }catch (E:Exception){error(E)}
     }
-
+    
+    val msgs = arrayListOf("Mano, rolou um comunismo aqui", "Deveriamos ter investido mais na Usina Nuclear de Chernobil", "Soviet Union March")
+    
     fun error(E:Exception){
-        var msgs = arrayListOf("Mano, rolou um comunismo aqui", "Deveriamos ter investido mais na Usina Nuclear de Chernobil", "Soviet Union March")
+
         var msg = msgs.get(Random().nextInt(msgs.size-1))
         jda!!.getUserById("232201288862007296").openPrivateChannel().queue({ b -> b.sendMessage("${msg}```${E}\n    ${E.stackTrace.joinToString("\n    ")}```").queue() })
     }
