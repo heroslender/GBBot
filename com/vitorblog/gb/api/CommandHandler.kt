@@ -1,5 +1,6 @@
 package com.vitorblog.gb.api
 
+import com.vitorblog.gb.Bot
 import com.vitorblog.gb.Main
 import net.dv8tion.jda.core.Permission
 import net.dv8tion.jda.core.entities.User
@@ -13,15 +14,16 @@ class CommandHandler : ListenerAdapter() {
 
     override
     fun onGuildMessageReceived(e: GuildMessageReceivedEvent) {
-        var p = e.author
-        var msg = e.message
+        val p = e.author
+        val msg = e.message
         var a = msg.contentRaw.split(" ")
-        var g = e.guild
-        var cmd = a[0].replace("!", "").replace("!!", "")
+        val g = e.guild
+        val cmd = a[0].replace("!", "").replace("!!", "")
 
         if (e.channel.id.equals("538469711416131584")){
             msg.addReaction(g.getEmoteById(540305825806155776)).queue()
             msg.addReaction(g.getEmoteById(540305884270690339)).queue()
+            return
         }
         if (cooldown.contains(p)){
             e.channel.sendMessage("${p.asMention} **|** Vai com calma ai <:opoha:540308642407120896> Você precisa esperar um pouco para poder executar mais comandos <:taokey:546050885055283211>").queue()
@@ -30,7 +32,7 @@ class CommandHandler : ListenerAdapter() {
 
         if (msg.contentRaw.startsWith("!", true) || msg.contentRaw.startsWith("!!", true) && !cooldown.contains(p)){
             try{
-                var cmdd = Main.bot!!.commands.filter { b -> b.name.equals(cmd, true) }.firstOrNull()
+                var cmdd = Bot.instance.commands.filter { b -> b.name.equals(cmd, true) }.firstOrNull()
                 if (cmdd != null){
 
                     if (!e.channel.id.equals("537779130926891028") && !e.member.hasPermission(Permission.MANAGE_ROLES)){
@@ -48,21 +50,19 @@ class CommandHandler : ListenerAdapter() {
                         add(p)
                 }
             }catch (E:Exception){
-                Main.bot!!.error(E)
+                Bot.instance.error(E)
             }
         }
-        if (e.message.mentionedUsers.contains(e.jda.selfUser)){
-            if (a.size <= 1) {
-                if (!p.id.equals("232201288862007296"))
-                    add(p)
-                e.channel.sendMessage("Olá, ${p.asMention}! Eu sou o robô do discord da __Gamer's Board__ <:taokey:546050885055283211> Para __saber mais__ __sobre mim__ use `!ajuda` <:joinha:541701246721982465>").queue()
-            } else if (a[1].equals("taokey?", true)){
-                e.channel.sendMessage("${p.asMention}, taokey <:taokey:546050885055283211>").queue()
-            }
+        if (e.message.mentionedUsers.contains(e.jda.selfUser) && a.size <= 1){
+            if (!p.id.equals("232201288862007296"))
+                add(p)
+            e.channel.sendMessage("Olá, ${p.asMention}! Eu sou o robô do discord da __Gamer's Board__ <:taokey:546050885055283211> Para __saber mais__ __sobre mim__ use `!ajuda` <:joinha:541701246721982465>").queue()
+
         }
     }
-    var cooldown = ArrayList<User>()
 
+    //Gambiarra dms
+    var cooldown = ArrayList<User>()
     fun add(p: User){
         cooldown.add(p)
         var th = Thread(Runnable {
@@ -70,31 +70,6 @@ class CommandHandler : ListenerAdapter() {
             cooldown.remove(p)
         })
         th.start()
-    }
-
-    var hosts = arrayListOf("enxadahost", "hypehost", "battlehost", "phantomhost", "BlastHosting", "LostOnyx", "ReisHosting", "UltraHostBR")
-
-    override
-    fun onGuildMemberNickChange(e: GuildMemberNickChangeEvent) {
-        if (e.newNick == null){
-            return
-        }
-        hosts.forEach {
-            b ->
-            if (!e.newNick.replace(b, "", true).equals(e.newNick)){
-                e.guild.controller.setNickname(e.member, e.newNick.replace(b, "TorradaHost", true)).queue()
-            }
-        }
-    }
-
-    override
-    fun onGuildMemberJoin(e: GuildMemberJoinEvent) {
-        hosts.forEach {
-            b ->
-            if (e.member.effectiveName.toLowerCase().contains(b)){
-                e.guild.controller.setNickname(e.member, e.member.effectiveName.replace(b, "TorradaHost")).queue()
-            }
-        }
     }
 
 }
