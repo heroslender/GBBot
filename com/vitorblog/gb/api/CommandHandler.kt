@@ -25,10 +25,6 @@ class CommandHandler : ListenerAdapter() {
             msg.addReaction(g.getEmoteById(540305884270690339)).queue()
             return
         }
-        if (cooldown.contains(p)){
-            e.channel.sendMessage("${p.asMention} **|** Vai com calma ai <:opoha:540308642407120896> Você precisa esperar um pouco para poder executar mais comandos <:taokey:546050885055283211>").queue()
-            return
-        }
 
         if (msg.contentRaw.startsWith("!", true) || msg.contentRaw.startsWith("!!", true) && !cooldown.contains(p)){
             try{
@@ -39,6 +35,10 @@ class CommandHandler : ListenerAdapter() {
                         e.channel.sendMessage("${p.asMention} **|** você só pode executar comandos no ${g.getTextChannelById("537779130926891028").asMention} <:taokey:546050885055283211>").queue({
                                 b -> b.delete().queueAfter(5, TimeUnit.SECONDS)
                         })
+                        return
+                    }
+                    if (cooldown.contains(p)){
+                        e.channel.sendMessage("${p.asMention} **|** Vai com calma ai <:opoha:540308642407120896> Você precisa esperar um pouco para poder executar mais comandos <:taokey:546050885055283211>").queue()
                         return
                     }
                     cmdd.p = p
