@@ -1,9 +1,5 @@
 .idea
 GBbots.iml
 upload.sh
-<<<<<<< HEAD
 out
-=======
-
 target/
->>>>>>> 21477642c660d51c1453b936c95cb4cc659a7486

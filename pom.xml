@@ -19,25 +19,17 @@
             <name>jcenter-bintray</name>
             <url>http://jcenter.bintray.com</url>
         </repository>
-<<<<<<< HEAD
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
-=======
->>>>>>> 21477642c660d51c1453b936c95cb4cc659a7486
     </repositories>
 
     <dependencies>
         <dependency>
-<<<<<<< HEAD
             <groupId>com.github.VitorBlog</groupId>
             <artifactId>JDA</artifactId>
             <version>v3.8.1</version>
-=======
-            <groupId>net.dv8tion</groupId>
-            <artifactId>JDA</artifactId>
-            <version>${jda.version}</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -48,7 +40,6 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.8.0-beta1</version>
->>>>>>> 21477642c660d51c1453b936c95cb4cc659a7486
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -64,13 +55,9 @@
 
     <build>
         <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
-<<<<<<< HEAD
-=======
-        <testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
->>>>>>> 21477642c660d51c1453b936c95cb4cc659a7486
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>src/main/kotlin/resources</directory>
             </resource>
         </resources>
         <plugins>

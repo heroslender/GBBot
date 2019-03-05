@@ -7,44 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a68966c-bfe0-4c3e-b797-ef2e377e2f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GBbots.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GBbots.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/META-INF/GBbots.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Bot$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Bot$error$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Bot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Main$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CMD$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CMD$sendDM$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CMD$sendDM$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CMD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CommandHandler$add$th$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CommandHandler$onGuildMessageReceived$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CommandHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/WebHook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Ajuda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Bolsonaro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/BotInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Example.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/GitHub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Skripter$execute$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Skripter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/threads/StatusThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/Bot.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/api/CMD.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/api/CommandHandler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/api/WebHook.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Ajuda.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/BotInfo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Example.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/GitHub.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/threads/StatusThread.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GBbots_jar/GBbots.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,7 +26,7 @@
     <session id="2133171583">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.125" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.35" value="1" />
@@ -74,34 +42,39 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="gitignore" value="3" />
-          <entry key="iml" value="1" />
+          <entry key="gitignore" value="4" />
+          <entry key="iml" value="3" />
           <entry key="java" value="1" />
           <entry key="kt" value="23" />
-          <entry key="sh" value="1" />
+          <entry key="md" value="1" />
+          <entry key="sh" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
+          <entry key="IDEA_MODULE" value="3" />
           <entry key="JAVA" value="1" />
           <entry key="Kotlin" value="23" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="3" />
+          <entry key="iml" value="1" />
           <entry key="kt" value="6902" />
-          <entry key="xml" value="17" />
+          <entry key="xml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="Kotlin" value="6902" />
-          <entry key="XML" value="17" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="31" />
         </counts>
       </usages-collector>
     </session>
@@ -109,37 +82,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/GBbots.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="93" column="39" lean-forward="true" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/Main.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/commands/Bolsonaro.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/Bot.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="211">
+              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -202,7 +148,9 @@
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt" />
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/Bot.kt" />
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/GBbots.iml" />
       </list>
     </option>
   </component>
@@ -304,7 +252,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551826070189" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551826696986" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -313,6 +261,9 @@
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.vitorblog.gb.commands" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,7 +323,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3312789" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3312789" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,9 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GBbots.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/threads/StatusThread.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10">
@@ -451,12 +399,6 @@
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$PROJECT_DIR$/../JDAFork/out/artifacts/JDAFork_1_0_WithDependencies_jar/JDAFork_1_0_WithDependencies.jar!/net/dv8tion/jda/core/entities/Webhook.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -537,17 +479,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/commands/Bolsonaro.kt">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="120">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload.sh">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/commands/Bolsonaro.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -558,10 +520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/GBbots.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="93" column="39" lean-forward="true" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+        <state relative-caret-position="211">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
         </state>
       </provider>
     </entry>
