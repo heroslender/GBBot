@@ -35,7 +35,7 @@ class Bot {
                 return
             }
             var timer = Timer()
-            timer.schedule(StatusThread(this), 0L, 20000L)
+            timer.schedule(StatusThread(), 0L, 20000L)
         }catch (E:Exception){error(E)}
     }
 
