@@ -12,10 +12,9 @@ import java.lang.Exception
 import java.util.*
 import kotlin.reflect.full.createInstance
 
-class Bot(token:String) {
+class Bot {
 
     var jda:JDA? = null
-    var jdaBuilder:JDABuilder
     var started = false
     var commands = arrayListOf(Ajuda(), BotInfo(), GitHub())
 
@@ -23,19 +22,11 @@ class Bot(token:String) {
         val instance = Bot::class.createInstance()
     }
 
-    init {
-        jdaBuilder = JDABuilder().setToken(token)
-    }
-
-    fun start(){
-        jda = jdaBuilder.buildAsync().awaitReady()
-        addListener(CommandHandler())
+    fun start(token:String){
+        jda = JDABuilder().setToken(token).buildAsync().awaitReady()
+        jda!!.addEventListener(CommandHandler())
         started = true
         startStatus()
-    }
-
-    fun addListener(e:ListenerAdapter){
-        jda!!.addEventListener(e)
     }
 
     fun startStatus(){
@@ -47,11 +38,9 @@ class Bot(token:String) {
             timer.schedule(StatusThread(this), 0L, 20000L)
         }catch (E:Exception){error(E)}
     }
-    
-    val msgs = arrayListOf("Mano, rolou um comunismo aqui", "Deveriamos ter investido mais na Usina Nuclear de Chernobil", "Soviet Union March")
-    
-    fun error(E:Exception){
 
+    fun error(E:Exception){
+        var msgs = arrayListOf("Mano, rolou um comunismo aqui", "Deveriamos ter investido mais na Usina Nuclear de Chernobil", "Soviet Union March")
         var msg = msgs.get(Random().nextInt(msgs.size-1))
         jda!!.getUserById("232201288862007296").openPrivateChannel().queue({ b -> b.sendMessage("${msg}```${E}\n    ${E.stackTrace.joinToString("\n    ")}```").queue() })
     }
