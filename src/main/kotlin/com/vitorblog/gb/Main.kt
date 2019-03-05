@@ -1,10 +1,17 @@
 package com.vitorblog.gb
 
+import kotlin.system.exitProcess
+
 class Main {companion object {
     @JvmStatic
     fun main(args:Array<String>){
-        val bot = Bot.instance
-        bot.start(args[0])
-        println("${bot!!.jda!!.selfUser.name} started")
+        if (args.isEmpty()) {
+            Bot.logger.error("A token do bot nao foi defenida :|")
+            exitProcess(1)
+        }
+
+        val bot = Bot(args[0])
+
+        Bot.logger.info("${bot.jda.selfUser.name} started")
     }
 }}
