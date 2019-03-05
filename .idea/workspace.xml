@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/BotInfo.kt" line="15" />
-    <bookmark url="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt" line="42" mnemonic="4" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="3a68966c-bfe0-4c3e-b797-ef2e377e2f58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Ajuda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Ajuda.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GBbots.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GBbots.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/META-INF/GBbots.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Bot$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Bot$error$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Bot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Main$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CMD$DefaultImpls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CMD$sendDM$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CMD$sendDM$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CMD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CommandHandler$add$th$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CommandHandler$onGuildMessageReceived$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/CommandHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/api/WebHook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Ajuda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Bolsonaro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/BotInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/GitHub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Skripter$execute$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/commands/Skripter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GBbots/com/vitorblog/gb/threads/StatusThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/Bot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/api/CMD.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/api/CommandHandler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/api/WebHook.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Ajuda.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/BotInfo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Example.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/GitHub.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vitorblog/gb/threads/StatusThread.kt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +72,9 @@
           <entry key="gitignore" value="3" />
           <entry key="iml" value="1" />
           <entry key="java" value="1" />
-          <entry key="kt" value="20" />
+          <entry key="kt" value="23" />
           <entry key="sh" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -49,116 +82,59 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="20" />
+          <entry key="Kotlin" value="23" />
           <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="6599" />
+          <entry key="kt" value="6902" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="6599" />
+          <entry key="Kotlin" value="6902" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Example.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/Bot.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="45" />
-              <folding>
-                <element signature="e#35#256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/GitHub.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/BotInfo.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/api/CommandHandler.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="31" column="64" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Ajuda.kt">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+            <state relative-caret-position="135">
+              <caret line="93" column="39" lean-forward="true" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="180" selection-start-line="14" selection-start-column="180" selection-end-line="14" selection-end-column="180" />
+            <state relative-caret-position="90">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/api/CMD.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/commands/Bolsonaro.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/api/WebHook.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/Bot.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="e#30#126#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -213,14 +189,15 @@
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/commands/GitHub.kt" />
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/Main.kt" />
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/api/CommandHandler.kt" />
-        <option value="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt" />
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/threads/StatusThread.kt" />
-        <option value="$PROJECT_DIR$/src/com/vitorblog/gb/Bot.kt" />
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/api/CMD.kt" />
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/api/WebHook.kt" />
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/commands/BotInfo.kt" />
-        <option value="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt" />
         <option value="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Ajuda.kt" />
+        <option value="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt" />
+        <option value="$PROJECT_DIR$/src/com/vitorblog/gb/Bot.kt" />
+        <option value="$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -251,40 +228,79 @@
               <item name="GBbots" type="b2602c69:ProjectViewProjectNode" />
               <item name="GBbots" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GBbots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GBbots" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GBbots" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GBbots" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="gb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GBbots" type="b2602c69:ProjectViewProjectNode" />
               <item name="GBbots" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gb" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GBbots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GBbots" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="gb" type="462c0819:PsiDirectoryNode" />
               <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GBbots" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GBbots" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gb" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="GBbots" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="GBbots" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GBbots" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GBbots" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="GBbots" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551818793882" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551826022495" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -310,7 +326,7 @@
     <configuration name="com.vitorblog.gb.Main" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="GBbots" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="NTQ2MzA4Mjk2ODAyMzA0MDAw.D0mUzQ.7-142mKegwpqqNR_dQ7peNjyRX8" />
+      <option name="PROGRAM_PARAMETERS" value="NTQ2MzA4Mjk2ODAyMzA0MDAw.D2CNvQ.sxkQSp5rHeGlYMGQneEMgmYdgN8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -341,7 +357,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-3" width="1317" height="771" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.21400473" />
       <window_info id="Image Layers" order="1" />
@@ -357,7 +372,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32973805" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32973805" />
@@ -432,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/Bot.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upload.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -469,16 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="45" />
-          <folding>
-            <element signature="e#35#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Example.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -500,17 +498,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="180" selection-start-line="14" selection-start-column="180" selection-end-line="14" selection-end-column="180" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Ajuda.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+          <caret line="27" column="101" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/Bot.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#26#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Bolsonaro.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="183" selection-start-line="14" selection-start-column="183" selection-end-line="14" selection-end-column="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#35#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/commands/Bolsonaro.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/vitorblog/gb/Bot.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="93" column="39" lean-forward="true" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -520,10 +566,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>GBbots:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -531,7 +579,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Kotlin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
