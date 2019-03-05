@@ -23,7 +23,7 @@ class BotInfo : CMD {
                     "<:virtus:549682556472393748> Usando __${((ram()/1024)/1024)}MB de Ram__\n" +
                     "$virtus Meu passa tempo favorito é __alisar a careca do ${rosset}__ **\n" +
                     "[Clique para entrar no fórum](https://gamersboard.com.br)")
-            .setFooter(e.jda.selfUser.member().nickname, e.jda.selfUser.avatarUrl)
+            .setFooter("Gamer'sBoard | #MakeGBGreatAgain", e.jda.selfUser.avatarUrl)
         send(p.asMention, eb.build())
     }
 

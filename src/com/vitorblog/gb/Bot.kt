@@ -1,10 +1,7 @@
 package com.vitorblog.gb
 
 import com.vitorblog.gb.api.CommandHandler
-import com.vitorblog.gb.commands.Ajuda
-import com.vitorblog.gb.commands.BotInfo
-import com.vitorblog.gb.commands.GitHub
-import com.vitorblog.gb.commands.Skripter
+import com.vitorblog.gb.commands.*
 import com.vitorblog.gb.threads.StatusThread
 import net.dv8tion.jda.core.JDA
 import net.dv8tion.jda.core.JDABuilder
@@ -17,7 +14,7 @@ class Bot {
 
     var jda:JDA? = null
     var started = false
-    var commands = arrayListOf(Ajuda(), BotInfo(), GitHub(), Skripter())
+    var commands = arrayListOf(Ajuda(), BotInfo(), GitHub(), Skripter(), Bolsonaro())
 
     companion object {
         val instance = Bot::class.createInstance()
@@ -40,6 +37,8 @@ class Bot {
         }catch (E:Exception){error(E)}
     }
     
+    val msgs = arrayListOf("Mano, rolou um comunismo aqui", "Deveriamos ter investido mais na Usina Nuclear de Chernobil", "Soviet Union March")
+
     val msgs = arrayListOf("Mano, rolou um comunismo aqui", "Deveriamos ter investido mais na Usina Nuclear de Chernobil", "Soviet Union March")
 
     fun error(E:Exception){

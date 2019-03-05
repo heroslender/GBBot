@@ -6,7 +6,7 @@ import java.util.*
 
 class StatusThread : TimerTask() {
 
-    val status = arrayListOf("Minecraft", "JetBrains IDE")
+    val status = arrayListOf("Minecraft", "JetBrains IDE", "shampoo na careca do Rosset")
     val statusTwitch = arrayListOf("a careca do Rosset", "JetBrains IDE")
     val bot = Bot.instance
     val jda = bot.jda!!

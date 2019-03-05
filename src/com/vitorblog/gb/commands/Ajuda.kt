@@ -24,7 +24,8 @@ class Ajuda : CMD {
                 "\n __!ajuda__ **|** Mostra essa mensagem $opoha" +
                 "\n __!botinfo__ **|** Mostra as minhas informações $rosset" +
                 "\n __!github__ **|** Mostra o meu repositório no GitHub <:github:552536695019667476>" +
-                "\n __!skripter__ **|** Mostra a chance de uma pessoa ser Skripter $skripter")
+                "\n __!skripter__ **|** Mostra a chance de uma pessoa ser Skripter $skripter"+
+                "\n __!bolsonaro__ **|** Frases do Bolsonaro, taokey? <:bolsonaro:552592888316428312>")
         sendDM("", eb.build())
         eb = embed()
         eb.appendDescription(" **» Comandos do fórum**\n" +
