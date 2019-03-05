@@ -5,7 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/vitorblog/gb/commands/Skripter.kt" line="42" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a68966c-bfe0-4c3e-b797-ef2e377e2f58" name="Default Changelist" comment="" />
+    <list default="true" id="3a68966c-bfe0-4c3e-b797-ef2e377e2f58" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -263,7 +265,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551809648364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551810892899" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
