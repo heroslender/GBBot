@@ -1,0 +1,23 @@
+<configuration scan="true" scanPeriod="15 seconds">
+    <timestamp key="byDay" datePattern="yyyyMMdd'T'HHmmss"/>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%yellow(%d{HH:mm:ss.SSS}) %highlight(%level) [%magenta(%thread)][%cyan(%logger{10})]: %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/log-${byDay}.txt</file>
+        <append>true</append>
+        <encoder>
+            <pattern>[%d{HH:mm:ss.SSS}] [%thread/%-5level]: %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Level to log -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>

@@ -1,3 +1,7 @@
 .idea
 GBbots.iml
 upload.sh
+
+logs/
+
+target/
