@@ -36,6 +36,8 @@ class Bot {
             timer.schedule(StatusThread(), 0L, 20000L)
         }catch (E:Exception){error(E)}
     }
+    
+    val msgs = arrayListOf("Mano, rolou um comunismo aqui", "Deveriamos ter investido mais na Usina Nuclear de Chernobil", "Soviet Union March")
 
     val msgs = arrayListOf("Mano, rolou um comunismo aqui", "Deveriamos ter investido mais na Usina Nuclear de Chernobil", "Soviet Union March")
 
