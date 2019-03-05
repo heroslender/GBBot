@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JDAFork_1_0_WithDependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../JDAFork/out/artifacts/JDAFork_1_0_WithDependencies_jar/JDAFork_1_0_WithDependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
